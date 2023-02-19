@@ -1,0 +1,11 @@
+myBase 破解方法
+
+替换掉 /Applications/myBase.app/Contents/MacOS/myBase
+
+
+
+
+
+win版本修改myBase.ini中的App.UserLic.FirstUseOn=（时间戳，修改到当前时间，即可再次白嫖30天）即可达到无限试用, 
+mac下这个文件的位置是 ～/.myBase7.ini
+
