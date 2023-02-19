@@ -1,0 +1,35 @@
+HD 5.7.7 crack补丁的使用方法
+
+ 你需要的前置准备工作：
+1.将hopperapp.com和www.hopperapp.com加入macOS的 hosts文件 防止联网验证(hosts文件在/etc文件夹下)
+     127.0.0.1 hopperapp.com
+     127.0.0.1 www.hopperapp.com
+2.如果你的macOS系统版本高于10.14(mojave)需要关闭macOS的SIP
+      2.1 intel处理器的mac关闭方法是开机时按住(command+R)进入macOS的恢复模式的终端输入csrutil disable，然后reboot重启
+      2.2 apple处理器的mac关闭方法是开机时按住指纹解锁键(touch id)进入macOS的恢复模式的终端输入csrutil disable，然后reboot重启
+3.下载好crack补丁和伪造的授权文件，安装原版的安装包到/Applications目录下即可开始
+
+  
+先打开原版程序，导入伪造的授权文件，点击[Offline Activation]
+
+
+使用方法[sudo ./bootstrap auto] 之前的 [sudo ./bootstrap $pid] 还能继续使用
+
+
+
+将补丁解压，打开终端，cd到解压后的目录，然后输入 [chmod 755 ./bootstrap] 赋予patcher运行权限
+打开macOS活动监视器，查找到进程的pid
+  
+然后输入命令[sudo ./bootstrap pid]启动补丁，我这里的示例是[sudo ./bootstrap 1569]
+回到激活窗口，复制上面的代码到下面的框点击OK
+  
+回到终端输入y，程序自动执行剩余流程，如果你输入n在加载文件的时候100%闪退。n只是让你提前退出而不执行后续操作
+  
+到此为止 你已经可以使用Hopper Disassembler的全部功能，如果出现
+  
+你可能需要重复上述步骤，如果出现闪退，不可避免，只能重新来过再操作一次。
+
+已经使用伪造授权激活过一次的，可以直接输入命令[sudo ./bootstrap]启动，不再需要附加pid。
+使用教程到这里就结束了，最后祝大家新年快乐。
+补丁和授权文件下载地址在附件。
+如果你有更好的方法欢迎讨论研究，特此另开的一贴，希望能和大家互相交流学习。

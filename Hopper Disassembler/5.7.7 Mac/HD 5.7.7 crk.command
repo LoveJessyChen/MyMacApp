@@ -1,0 +1,1 @@
+sudo /Users/admin/hd-5.7.7-patcher-v1.1/bootstrap auto
