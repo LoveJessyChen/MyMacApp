@@ -1,0 +1,8 @@
+Cleanmymac X 手动破解方法
+
+
+官方下载地址：https://dl.devmate.com/com.macpaw.CleanMyMac4/CleanMyMacX.dmg
+安装后去升级到最新测试版。
+
+
+解压出来的两个文件都要替换到/Applications/CleanMyMac X.app/Contents/Frameworks/Announcements.framework/Versions/A/Announcements即可体验正版
