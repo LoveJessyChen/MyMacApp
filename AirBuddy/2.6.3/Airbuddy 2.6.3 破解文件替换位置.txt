@@ -1,0 +1,7 @@
+Airbuddy 2.6.3 破解文件替换位置
+
+/Applications/AirBuddy.app/Contents/Frameworks/Paddle.framework/Versions/A/Paddle
+
+
+
+codesign -f -s - --timestamp=none /Applications/AirBuddy.app
