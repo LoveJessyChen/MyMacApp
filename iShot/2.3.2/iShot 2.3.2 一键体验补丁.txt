@@ -1,0 +1,5 @@
+iShot 2.3.2 一键体验补丁
+
+
+解压两个文件替换掉
+/Applications/iShot.app/Contents/Frameworks/PTHotKey.framework/Versions/A/PTHotKey
